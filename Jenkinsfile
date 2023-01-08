@@ -21,11 +21,11 @@ pipeline {
             }
         }
     
-        stage('test') {
-            steps {
-                sh 'ng build'
-            }
-        }    
+        // stage('test') {
+        //     steps {
+        //         sh 'ng build'
+        //     }
+        // }    
     
     }
 

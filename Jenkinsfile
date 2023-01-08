@@ -20,14 +20,14 @@ pipeline {
                 sh 'npm install'
             }
         }
+    
+        stage('test') {
+            steps {
+                sh 'ng build'
+            }
+        }    
+    
     }
-
-    stage('test') {
-        steps {
-            sh 'ng build'
-        }
-    }
-
 
 
 }

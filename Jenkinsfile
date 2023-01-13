@@ -39,7 +39,7 @@ pipeline {
                     }
                 }
 
-                sh 'docker build -t ${image_name}:${tag_image} .'  
+                sh 'docker build -t ${image_name}:${tag_image} .'      
 
             }
         }
